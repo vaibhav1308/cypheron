@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="20dp"
+    tools:context=".ui.main.Encrypt">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="clear_text"
+            android:longClickable="false"
+            android:paddingBottom="20dp"
+            app:boxStrokeColor="@color/design_default_color_primary"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/EnPlainText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_text" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/EnOption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="dropdown_menu"
+            android:hint="@string/tab1_text1"
+            android:paddingBottom="20dp"
+            app:boxStrokeColor="@color/design_default_color_primary"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+            <AutoCompleteTextView
+                android:id="@+id/fill_ciphers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/EnKeyTextLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="clear_text"
+            android:paddingBottom="20dp"
+            app:boxStrokeColor="@color/design_default_color_primary"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/EnKey"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/key"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/EncBtn"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Encode" />
+
+
+        <ImageView
+            android:id="@+id/Copy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="10dp"
+            android:src="@drawable/icon_copy"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/en_tx"
+            android:gravity="top"
+            app:boxStrokeColor="@color/design_default_color_primary"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/EnShowView"
+                android:gravity="start"
+                android:textSize="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:enabled="false"/>
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+</FrameLayout>

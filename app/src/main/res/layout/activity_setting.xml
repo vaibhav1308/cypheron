@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SettingActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:textSize="28dp"
+        android:gravity="center"
+        android:layout_marginTop="38dp"
+
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/restart_text"/>
+
+    <Button
+        android:id="@+id/RestartButton"
+        android:layout_height="wrap_content"
+        android:layout_width="238dp"
+        android:text="@string/restart_button"
+        android:padding="12dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="38dp"
+        android:layout_marginTop="18dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="@string/dark"/>
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/DarkSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:layout_marginLeft="18dp"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+    </LinearLayout>
+
+</LinearLayout>

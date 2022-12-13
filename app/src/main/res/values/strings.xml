@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Cypheron</string>
+    <string name="title">cypheron</string>
+    <string name="encrypt_tab">Encrypt</string>
+    <string name="decrypt_tab">Decrypt</string>
+
+
+    <string name="tab1_text1">Select Cipher</string>
+    <string name="enter_text">Enter Text Here</string>
+    <string name="key">Enter Key</string>
+    <string name="en_tx">Encrypted Text</string>
+    <string name="de_tx">Decrypted Text</string>
+
+
+    <string name="help_fragment">Help fragment</string>
+    <string name="restart_text">reset application</string>
+    <string name="restart_button">reset</string>
+    <string name="dark">enable dark mode</string>
+
+
+    <string name="mono">Monoalphabetic Cipher</string>
+    <string name="help_mono">A monoalphabetic substitution cipher,
+        also known as a simple substitution cipher, relies on a fixed replacement structure.
+        That is, the substitution is fixed for each letter of the alphabet. Thus, if "a" is
+        encrypted to "R", then every time we see the letter "a" in the plaintext, we replace it
+        with the letter "R" in the ciphertext.</string>
+
+    <string name="caes">Ceasar Cipher</string>
+    <string name="help_caes">Caesar cipher, also the shift cipher, Caesar code or Caesar shift,
+        is one of the simplest and most widely known encryption techniques. It is a type of
+        substitution cipher in which each letter in the plaintext is replaced by a letter some
+        fixed number of positions down the alphabet. For example, with a left shift of 3, D would
+        be replaced by A, E would become B, and so on. The method is named after Julius Caesar,
+        who used it in his private correspondence</string>
+
+    <string name="at">Atbash Cipher</string>
+    <string name="help_atb"> Atbash cipher is a substitution cipher with just one specific key
+        where all the letters are reversed that is A to Z and Z to A. It was originally used to
+        encode the Hebrew alphabets but it can be modified to encode any alphabet.</string>
+
+    <string name="ver">Vernam Cipher</string>
+    <string name="help_vern">Vernam Cipher is a method of encrypting alphabetic text. It is one
+        of the Transposition techniques for converting a plain text into a cipher text. In this
+        mechanism we assign a number to each character of the Plain-Text,
+        like (a = 0, b = 1, c = 2, … z = 25). </string>
+
+    <string name="aes">AES Cipher</string>
+    <string name="help_aes">AES is an iterative rather than Feistel cipher. It is based on
+        ‘substitution–permutation network’. It comprises of a series of linked operations,
+        some of which involve replacing inputs by specific outputs (substitutions) and others
+        involve shuffling bits around (permutations).</string>
+
+    <string name="rail">Rail Fence Cipher</string>
+    <string name="help_rail">The rail fence cipher (sometimes called zigzag cipher) is a
+        transposition cipher that jumbles up the order of the letters of a message using a
+        basic algorithm.The rail fence cipher works by writing your message on alternate lines
+        across the page, and then reading off each line in turn.</string>
+
+    <string name="see_link_for_detail">Click here for detail</string>
+
+
+    <string name="about">Developed By Vaibhav Pawar <br/>
+        T.Y B.Sc (C.S) Roll No 747<br/>
+        Patkar-Varde College<br/>
+        2020-2021<br/>
+    </string>
+
+    <string name="version">version 1.0.0</string>
+
+</resources>
