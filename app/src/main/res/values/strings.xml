@@ -17,6 +17,7 @@
     <string name="help_fragment">Help fragment</string>
     <string name="restart_text">reset application</string>
     <string name="restart_button">reset</string>
+    <string name="description">Application Logo</string>
     <string name="dark">enable dark mode</string>
 
 
